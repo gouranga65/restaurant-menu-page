@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d5f3fe;
+  overflow-x: hidden;
+}
+.header {
+  position: relative;
+  left: 560px;
+  top: 50px;
+  font-size: 34px;
+}
+hr {
+  position: relative;
+  top: 60px;
+  height: 2px;
+  width: 60px;
+  left: 590px;
+  background-color: rgb(166, 124, 0);
+  border-radius: 2px;
+}
+button {
+  cursor: pointer;
+  border: 1.5px solid rgb(166, 124, 0);
+  border-radius: 5px;
+}
+.buttonBtn {
+  position: relative;
+  top: 79px;
+  left: 470px;
+  gap: 10px;
+}
+span {
+  padding-left: 10px;
+}
+.btn-all,
+.btn-breakfast,
+.btn-lunch,
+.btn-shakes,
+.btn-dinner {
+  padding: 3px;
+  color: rgb(166, 124, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #d5f3fe;
+}
