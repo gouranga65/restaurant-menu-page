@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+:root{
+  --goden:rgb(166, 124, 0);
+  --lightgrey:#D3D3D3;
+}
 body {
   background-color: #d5f3fe;
   overflow-x: hidden;
@@ -12,19 +16,38 @@ body {
   top: 50px;
   font-size: 34px;
 }
-hr {
+.blank{
+  background-color: pink;
+  height: 3px;
   position: relative;
-  top: 60px;
-  height: 2px;
   width: 60px;
   left: 590px;
-  background-color: rgb(166, 124, 0);
-  border-radius: 2px;
+  top: 60px;
+
+}
+.left-side-menu{
+  position: relative;
+  width: 480px;
+  height: 800px;
+  top: 130px;
+  left: 180px;
+}
+.buttermilk-pancake{
+  display: flex;
+  gap: 9px;
+
 }
 button {
   cursor: pointer;
   border: 1.5px solid rgb(166, 124, 0);
   border-radius: 5px;
+}
+.divider{
+  height: 1.5px;
+  background-color: #D3D3D3;
+  width: 275px;
+  position: relative;
+  top: 2px;
 }
 .buttonBtn {
   position: relative;
@@ -45,4 +68,23 @@ span {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #d5f3fe;
+}
+.pancake{
+  width: 180px;
+  height: 130px;
+  border-radius: 5px;
+  border: 2px solid var(--goden);
+}
+.name,.price{
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+.price{
+  color: var(--goden);
+}
+.description{
+  width: 275px;
+  position: relative;
+  top: 5px;
 }
