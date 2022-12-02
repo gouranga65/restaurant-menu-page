@@ -28,14 +28,18 @@ body {
 .left-side-menu{
   position: relative;
   width: 480px;
-  height: 800px;
+  height: 650px;
   top: 130px;
-  left: 180px;
+  left: 100px;
 }
-.buttermilk-pancake{
+.right-side-menu{
+  position: relative;
+  bottom: 525px;
+  left: 680px;
+}
+.buttermilk-pancake,.godzilla-milkshake,.egg-attack,.bacon-overflow,.diner-double,.country-delight,.oreo-dream,.american-classic{
   display: flex;
   gap: 9px;
-
 }
 button {
   cursor: pointer;
@@ -69,11 +73,14 @@ span {
     "Lucida Sans", Arial, sans-serif;
   background-color: #d5f3fe;
 }
-.pancake{
+.pancake,.milkshake,.burgur,.bacon,.dinner,.omlet,.starbucks,.american-burgar{
   width: 180px;
   height: 130px;
   border-radius: 5px;
   border: 2px solid var(--goden);
+}
+.milkshake{
+  object-fit: cover;
 }
 .name,.price{
   font-size: 18px;
@@ -87,4 +94,7 @@ span {
   width: 275px;
   position: relative;
   top: 5px;
+}
+.menu{
+  height: 100px;
 }
